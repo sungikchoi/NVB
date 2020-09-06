@@ -3,7 +3,6 @@ This is an official implementation of "Novelty Detection Via Blurring"[ICLR 2020
 
 In this repository, we include CIFAR-10 : SVHN,LSUN,TinyImageNet implementation and results.
 
-
 use ./compose_inverse.sh to replicate the whole process.
 
 Minimum requirements
