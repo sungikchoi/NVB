@@ -1,14 +1,8 @@
-# NVB
-Code of Novelty Detection Via Blurring
+# This contains the vanilla version of outlier proxy + Random network Distillation
 
-This is an official implementation code of the paper "Novelty Detection via Blurring" published in ICLR'20. 
-In this repository, code on CIFAR-10: SVHN, LSUN and TinyImageNet dataset are included.
+# beta controls the magnitude of the distance between the output for the proxy and output for the training data
 
-Requirements
+# eigen controls the effective rank 
 
--Python 2.7
--Pytorch
--CV2
-
-You can downoad the resized LSUN and TinyImageNet datasets on this link: https://github.com/ShiyuLiang/odin-pytorch
+# Based on the code of https://github.com/kuangliu/pytorch-cifar
 
