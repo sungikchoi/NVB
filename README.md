@@ -1,8 +1,21 @@
-# This contains the vanilla version of outlier proxy + Random network Distillation
+This is an official implementation of "Novelty Detection Via Blurring"[ICLR 2020]
 
-# beta controls the magnitude of the distance between the output for the proxy and output for the training data
 
-# eigen controls the effective rank 
+In this repository, we include CIFAR-10 : SVHN,LSUN,TinyImageNet implementation and results.
 
-# Based on the code of https://github.com/kuangliu/pytorch-cifar
 
+use ./compose_inverse.sh to replicate the whole process.
+
+Minimum requirements
+
+-Python=2.7
+
+-Pytorch
+
+-cv2
+
+To downoad the resized LSUN and TinyImageNet datasets (you have to paste them into the data folder)
+
+Use the link : https://github.com/ShiyuLiang/odin-pytorch
+
+If you have any further questions, mail me: si_choi@kaist.ac.kr 
